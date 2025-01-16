@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"bookly_app2", origin, size)) {
+=======
+  if (!window.Create(L"bookly_app", origin, size)) {
+>>>>>>> 7c67bee81a6ebee800b2b71e8fd9277caec84559
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

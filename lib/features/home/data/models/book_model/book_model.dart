@@ -49,7 +49,11 @@ class BookModel extends Equatable {
         'id': id,
         'etag': etag,
         'selfLink': selfLink,
+<<<<<<< HEAD
         'volumeInfo': volumeInfo.toJson(),
+=======
+        'volumeInfo': volumeInfo?.toJson(),
+>>>>>>> 7c67bee81a6ebee800b2b71e8fd9277caec84559
         'saleInfo': saleInfo?.toJson(),
         'accessInfo': accessInfo?.toJson(),
         'searchInfo': searchInfo?.toJson(),

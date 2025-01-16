@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # bookly_app2
+=======
+# bookly_app
+>>>>>>> 7c67bee81a6ebee800b2b71e8fd9277caec84559
 
 A new Flutter project.
 

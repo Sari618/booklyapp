@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(bookly_app2 LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "bookly_app2")
+=======
+project(bookly_app LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "bookly_app")
+>>>>>>> 7c67bee81a6ebee800b2b71e8fd9277caec84559
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
