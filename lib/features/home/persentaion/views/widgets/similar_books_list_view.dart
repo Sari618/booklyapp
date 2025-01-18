@@ -12,8 +12,11 @@ class SimilarBooksListView extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
           return const Padding(
-            padding:  EdgeInsets.symmetric(horizontal: 5),
-            child:  CustomBookImage(),
+            padding: EdgeInsets.symmetric(horizontal: 5),
+            child: CustomBookImage(
+              imageUrl:
+                  "https://static.vecteezy.com/system/resources/thumbnails/020/484/423/small_2x/hand-drawn-open-book-vector.jpg",
+            ),
           );
         },
       ),

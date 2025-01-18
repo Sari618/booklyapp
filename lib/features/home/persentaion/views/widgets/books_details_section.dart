@@ -13,7 +13,7 @@ class BooksDetailsSection extends StatelessWidget {
     return Column(children: [
              Padding(
                   padding: EdgeInsets.symmetric(horizontal: width * 0.25),
-                  child: CustomBookImage(),
+                  child: CustomBookImage(imageUrl:  "https://static.vecteezy.com/system/resources/thumbnails/020/484/423/small_2x/hand-drawn-open-book-vector.jpg"),
                 ),
                 const SizedBox(height: 43),
                 Text(
